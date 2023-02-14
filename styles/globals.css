@@ -2,8 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap");
+
+@layer base {
+  body {
+    @apply font-body bg-black scrollbar-hide;
+  }
+}
 @layer components {
   .sidebarIcon {
     @apply h-6 text-gray-400 text-xl cursor-pointer;
+  }
+
+  .tag {
+    @apply py-1.5 px-3 text-xs rounded-xl font-bold border-2 border-neutral-600;
   }
 }

@@ -11,6 +11,7 @@ function Sidebar() {
     >
       <Image
         src="https://rb.gy/xkacau"
+        alt="Sorry"
         width={56}
         height={56}
         objectFit="contain"
